@@ -1,12 +1,7 @@
 const express = require('express');
-const app = express();
-const PORT = process.env.PORT ?? 3005;
-
+const router = express.Router();
 const PUBLIC_PATH = 'pages/public';
-// set the view engine to ejs
-app.set('view engine', 'ejs');
-// Respond with message data when a GET request is made to home page /
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
 	const dataObject = {
 		pageTitle: 'Welcome to homepage',
 		current_page: 'home'
@@ -15,6 +10,7 @@ app.get('/', (req, res) => {
 		`${PUBLIC_PATH}/home`,
 		dataObject,
 		(err, dataView) => {
+			console.log(err);
 			if(err) return res.status(500).json({
 				status: 500,
 				message: "You have some error message on this route",
@@ -24,6 +20,5 @@ app.get('/', (req, res) => {
 		}
 	);
 });
-app.listen(PORT, () => {
-	console.log(`Your server running on port: ${PORT}`);
-});
+
+module.exports = router;
