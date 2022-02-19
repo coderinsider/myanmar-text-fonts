@@ -4,9 +4,87 @@
 		<%- include("../layout/head", {pageName: "Hi"}); %>
 		<link rel="stylesheet" type="text/css" href="css/font-face.css" />
 		<link rel="stylesheet" type="text/css" href="css/public-style.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	</head>
 	<body currentpage="<%= current_page %>">
-		<div class="container">
-		</div>
+
+		<section>
+			<div class="container">
+				<div class="firstheading">
+					<div class="font-text">
+						<input type="text" value="နှမတော်လေး" class="form-control" />
+					</div>
+					<div class="font-size" style="margin-top: 20px;">
+						<input type="range" min="1" max="500" class="form-control" value="10"/>
+						<p class="current-pixel">10px</p>
+					</div>
+				</div>
+				<div class="contentwrapper">
+					<div class="font-family-boxs"></div>
+				</div>
+			</div>
+		</section>
+		<script>
+		const mainWrapper = document.querySelector('.font-family-boxs');
+		const khmertypeFiles = [
+			'MyanmarAngoun',
+			'MyanmarChatu',
+			'MyanmarChatuLight',
+			'MyanmarGantgaw',
+			'MyanmarKhyay',
+			'MyanmarKuttar',
+			'MyanmarNayone',
+			'MyanmarNjaun',
+			'MyanmarPauklay',
+			'MyanmarPhetsot',
+			'MyanmarPhiksel',
+			'MyanmarPhikselSmooth',
+			'MyanmarPonenyet',
+			'MyanmarSabae',
+			'MyanmarSagar',
+			'MyanmarSanpya',
+			'MyanmarTagu',
+			'MyanmarThuriya',
+			'MyanmarWaso',
+			'MyanmarYinmar'
+		];
+		
+		const fontsLoop = (fontsArray) => {
+			const fontSize = document.querySelector('.font-size > input[type="range"]').value;
+			document.querySelector('.current-pixel').innerHTML =  fontSize + "px";
+			const typeFonts = document.querySelector('.font-text > input').value;
+			var fontText = "";
+			for(var i = 0; i < fontsArray.length; i++) {
+				fontText += `
+					<div class="font-family-box">
+						<div class="font-head">
+							<div class="font-name">
+								<p>${fontsArray[i]}</p>
+							</div>
+						</div>
+						<div class="font-custome-typeing">
+							<p style="font-size: ${fontSize}px;font-family: ${fontsArray[i].toLowerCase()}">${typeFonts}</p>
+						</div>
+					</div>
+				`;
+			}
+			return fontText;
+		}
+
+		const appendngAction = () => {
+			$('.font-family-boxs').html(fontsLoop(khmertypeFiles));
+		}
+		window.onload = () => {
+			appendngAction();
+		};
+		document.querySelector('.font-text > input').addEventListener('keyup', (evt) => {
+			appendngAction();
+		});
+
+		document.querySelector('.font-size > input').addEventListener('change', (evt) => {
+			appendngAction();
+		});
+		</script>
 	</body>
 </html>
