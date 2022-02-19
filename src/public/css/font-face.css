@@ -1,0 +1,362 @@
+
+@font-face {
+    font-family:"myanmarangoun";
+    src:local('myanmarangoun'),url('../fonts/khmertype/MyanmarAngoun.ttf') format('truetype');
+}
+.myanmarangoun {
+    font-family: "myanmarangoun";
+}
+
+@font-face {
+    font-family:"myanmarchatu";
+    src:local('myanmarchatu'),url('../fonts/khmertype/MyanmarChatu.ttf') format('truetype');
+}
+.myanmarchatu {
+    font-family: "myanmarchatu";
+}
+
+@font-face {
+    font-family:"myanmarchatulight";
+    src:local('myanmarchatulight'),url('../fonts/khmertype/MyanmarChatuLight.ttf') format('truetype');
+}
+.myanmarchatulight {
+    font-family: "myanmarchatulight";
+}
+
+@font-face {
+    font-family:"myanmargantgaw";
+    src:local('myanmargantgaw'),url('../fonts/khmertype/MyanmarGantgaw.ttf') format('truetype');
+}
+.myanmargantgaw {
+    font-family: "myanmargantgaw";
+}
+
+@font-face {
+    font-family:"myanmarkhyay";
+    src:local('myanmarkhyay'),url('../fonts/khmertype/MyanmarKhyay.ttf') format('truetype');
+}
+.myanmarkhyay {
+    font-family: "myanmarkhyay";
+}
+
+@font-face {
+    font-family:"myanmarkuttar";
+    src:local('myanmarkuttar'),url('../fonts/khmertype/MyanmarKuttar.ttf') format('truetype');
+}
+.myanmarkuttar {
+    font-family: "myanmarkuttar";
+}
+
+@font-face {
+    font-family:"myanmarnayone";
+    src:local('myanmarnayone'),url('../fonts/khmertype/MyanmarNayone.ttf') format('truetype');
+}
+.myanmarnayone {
+    font-family: "myanmarnayone";
+}
+
+@font-face {
+    font-family:"myanmarnjaun";
+    src:local('myanmarnjaun'),url('../fonts/khmertype/MyanmarNjaun.ttf') format('truetype');
+}
+.myanmarnjaun {
+    font-family: "myanmarnjaun";
+}
+
+@font-face {
+    font-family:"myanmarpauklay";
+    src:local('myanmarpauklay'),url('../fonts/khmertype/MyanmarPauklay.ttf') format('truetype');
+}
+.myanmarpauklay {
+    font-family: "myanmarpauklay";
+}
+
+@font-face {
+    font-family:"myanmarphetsot";
+    src:local('myanmarphetsot'),url('../fonts/khmertype/MyanmarPhetsot.ttf') format('truetype');
+}
+.myanmarphetsot {
+    font-family: "myanmarphetsot";
+}
+
+@font-face {
+    font-family:"myanmarphiksel";
+    src:local('myanmarphiksel'),url('../fonts/khmertype/MyanmarPhiksel.ttf') format('truetype');
+}
+.myanmarphiksel {
+    font-family: "myanmarphiksel";
+}
+
+@font-face {
+    font-family:"myanmarphikselsmooth";
+    src:local('myanmarphikselsmooth'),url('../fonts/khmertype/MyanmarPhikselSmooth.ttf') format('truetype');
+}
+.myanmarphikselsmooth {
+    font-family: "myanmarphikselsmooth";
+}
+
+@font-face {
+    font-family:"myanmarponenyet";
+    src:local('myanmarponenyet'),url('../fonts/khmertype/MyanmarPonenyet.ttf') format('truetype');
+}
+.myanmarponenyet {
+    font-family: "myanmarponenyet";
+}
+
+@font-face {
+    font-family:"myanmarsabae";
+    src:local('myanmarsabae'),url('../fonts/khmertype/MyanmarSabae.ttf') format('truetype');
+}
+.myanmarsabae {
+    font-family: "myanmarsabae";
+}
+
+@font-face {
+    font-family:"myanmarsagar";
+    src:local('myanmarsagar'),url('../fonts/khmertype/MyanmarSagar.ttf') format('truetype');
+}
+.myanmarsagar {
+    font-family: "myanmarsagar";
+}
+
+@font-face {
+    font-family:"myanmarsanpya";
+    src:local('myanmarsanpya'),url('../fonts/khmertype/MyanmarSanpya.ttf') format('truetype');
+}
+.myanmarsanpya {
+    font-family: "myanmarsanpya";
+}
+
+@font-face {
+    font-family:"myanmartagu";
+    src:local('myanmartagu'),url('../fonts/khmertype/MyanmarTagu.ttf') format('truetype');
+}
+.myanmartagu {
+    font-family: "myanmartagu";
+}
+
+@font-face {
+    font-family:"myanmarthuriya";
+    src:local('myanmarthuriya'),url('../fonts/khmertype/MyanmarThuriya.ttf') format('truetype');
+}
+.myanmarthuriya {
+    font-family: "myanmarthuriya";
+}
+
+@font-face {
+    font-family:"myanmarwaso";
+    src:local('myanmarwaso'),url('../fonts/khmertype/MyanmarWaso.ttf') format('truetype');
+}
+.myanmarwaso {
+    font-family: "myanmarwaso";
+}
+
+@font-face {
+    font-family:"myanmaryinmar";
+    src:local('myanmaryinmar'),url('../fonts/khmertype/MyanmarYinmar.ttf') format('truetype');
+}
+.myanmaryinmar {
+    font-family: "myanmaryinmar";
+}
+ 
+ 
+@font-face {
+    font-family:"cherryunicode";
+    src:local('cherryunicode'),url('../fonts/unknown/CherryUnicode.ttf') format('truetype');
+}
+.cherryunicode {
+    font-family: "cherryunicode";
+}
+
+@font-face {
+    font-family:"kamjing";
+    src:local('kamjing'),url('../fonts/unknown/Kamjing.ttf') format('truetype');
+}
+.kamjing {
+    font-family: "kamjing";
+}
+
+@font-face {
+    font-family:"myanmarangoun";
+    src:local('myanmarangoun'),url('../fonts/unknown/MyanmarAngoun.ttf') format('truetype');
+}
+.myanmarangoun {
+    font-family: "myanmarangoun";
+}
+
+@font-face {
+    font-family:"myanmarblack";
+    src:local('myanmarblack'),url('../fonts/unknown/MyanmarBlack.ttf') format('truetype');
+}
+.myanmarblack {
+    font-family: "myanmarblack";
+}
+
+@font-face {
+    font-family:"myanmarheadone";
+    src:local('myanmarheadone'),url('../fonts/unknown/MyanmarHeadOne.ttf') format('truetype');
+}
+.myanmarheadone {
+    font-family: "myanmarheadone";
+}
+
+@font-face {
+    font-family:"myanmarsabae";
+    src:local('myanmarsabae'),url('../fonts/unknown/MyanmarSabae.ttf') format('truetype');
+}
+.myanmarsabae {
+    font-family: "myanmarsabae";
+}
+
+@font-face {
+    font-family:"myanmarsanspro";
+    src:local('myanmarsanspro'),url('../fonts/unknown/MyanmarSansPro.ttf') format('truetype');
+}
+.myanmarsanspro {
+    font-family: "myanmarsanspro";
+}
+
+@font-face {
+    font-family:"myanmarsquare";
+    src:local('myanmarsquare'),url('../fonts/unknown/MyanmarSquare.ttf') format('truetype');
+}
+.myanmarsquare {
+    font-family: "myanmarsquare";
+}
+
+@font-face {
+    font-family:"myanmarsquarelight";
+    src:local('myanmarsquarelight'),url('../fonts/unknown/MyanmarSquareLight.ttf') format('truetype');
+}
+.myanmarsquarelight {
+    font-family: "myanmarsquarelight";
+}
+
+@font-face {
+    font-family:"nkssmart2";
+    src:local('nkssmart2'),url('../fonts/unknown/NKSSmart2.ttf') format('truetype');
+}
+.nkssmart2 {
+    font-family: "nkssmart2";
+}
+
+@font-face {
+    font-family:"nkssmart3";
+    src:local('nkssmart3'),url('../fonts/unknown/NKSSmart3.ttf') format('truetype');
+}
+.nkssmart3 {
+    font-family: "nkssmart3";
+}
+
+@font-face {
+    font-family:"nkssmart4";
+    src:local('nkssmart4'),url('../fonts/unknown/NKSSmart4.ttf') format('truetype');
+}
+.nkssmart4 {
+    font-family: "nkssmart4";
+}
+
+@font-face {
+    font-family:"namkhoneunicode";
+    src:local('namkhoneunicode'),url('../fonts/unknown/NamKhoneUnicode.ttf') format('truetype');
+}
+.namkhoneunicode {
+    font-family: "namkhoneunicode";
+}
+
+@font-face {
+    font-family:"yangon";
+    src:local('yangon'),url('../fonts/unknown/Yangon.ttf') format('truetype');
+}
+.yangon {
+    font-family: "yangon";
+}
+
+@font-face {
+    font-family:"yoeyar-one";
+    src:local('yoeyar-one'),url('../fonts/unknown/YoeYar-One.ttf') format('truetype');
+}
+.yoeyar-one {
+    font-family: "yoeyar-one";
+}
+ 
+ 
+@font-face {
+    font-family:"mon3";
+    src:local('mon3'),url('../fonts/other/Mon3.ttf') format('truetype');
+}
+.mon3 {
+    font-family: "mon3";
+}
+
+@font-face {
+    font-family:"mymyanmaruniversal";
+    src:local('mymyanmaruniversal'),url('../fonts/other/MyMyanmarUniversal.ttf') format('truetype');
+}
+.mymyanmaruniversal {
+    font-family: "mymyanmaruniversal";
+}
+
+@font-face {
+    font-family:"myanmarsanspro";
+    src:local('myanmarsanspro'),url('../fonts/other/MyanmarSansPro.ttf') format('truetype');
+}
+.myanmarsanspro {
+    font-family: "myanmarsanspro";
+}
+
+@font-face {
+    font-family:"notosanmyanmar";
+    src:local('notosanmyanmar'),url('../fonts/other/NotoSanMyanmar.ttf') format('truetype');
+}
+.notosanmyanmar {
+    font-family: "notosanmyanmar";
+}
+
+@font-face {
+    font-family:"notosansmyanmarui-regular-zawdecode";
+    src:local('notosansmyanmarui-regular-zawdecode'),url('../fonts/other/NotoSansMyanmarUI-Regular-ZawDecode.ttf') format('truetype');
+}
+.notosansmyanmarui-regular-zawdecode {
+    font-family: "notosansmyanmarui-regular-zawdecode";
+}
+
+@font-face {
+    font-family:"notosansmyanmarui";
+    src:local('notosansmyanmarui'),url('../fonts/other/NotoSansMyanmarUI.ttf') format('truetype');
+}
+.notosansmyanmarui {
+    font-family: "notosansmyanmarui";
+}
+
+@font-face {
+    font-family:"notoserifmyanmar";
+    src:local('notoserifmyanmar'),url('../fonts/other/NotoSerifMyanmar.ttf') format('truetype');
+}
+.notoserifmyanmar {
+    font-family: "notoserifmyanmar";
+}
+
+@font-face {
+    font-family:"ours-unicode";
+    src:local('ours-unicode'),url('../fonts/other/Ours-Unicode.ttf') format('truetype');
+}
+.ours-unicode {
+    font-family: "ours-unicode";
+}
+
+@font-face {
+    font-family:"pyidaungsu";
+    src:local('pyidaungsu'),url('../fonts/other/Pyidaungsu.ttf') format('truetype');
+}
+.pyidaungsu {
+    font-family: "pyidaungsu";
+}
+
+@font-face {
+    font-family:"yunghkio";
+    src:local('yunghkio'),url('../fonts/other/Yunghkio.ttf') format('truetype');
+}
+.yunghkio {
+    font-family: "yunghkio";
+}

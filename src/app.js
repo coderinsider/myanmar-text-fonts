@@ -7,6 +7,8 @@ const apiRoute = require('./routes/api/index');
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, "views"));
+app.use(express.static(path.join(__dirname, 'public')));
+console.log(express.static('public'));
 app.use((req, res, next) => {
 	console.log(`/${req.url} Your request method is ${req.method}`);
 	next();
